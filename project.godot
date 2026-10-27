@@ -1,0 +1,26 @@
+; Godot 4 native project. Open this file in Godot and press F6/F5.
+config_version=5
+
+[application]
+config/name="ТИТУС — Бастион VII"
+run/main_scene="res://scenes/range.tscn"
+config/features=PackedStringArray("4.6", "GL Compatibility")
+config/description="Тактический полигон с Титусом, отдельным оружием и скелетной анимацией."
+
+[display]
+window/size/viewport_width=1600
+window/size/viewport_height=1000
+window/size/window_width_override=1440
+window/size/window_height_override=900
+window/stretch/mode="canvas_items"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+lights_and_shadows/directional_shadow/size=2048
+anti_aliasing/quality/msaa_3d=1
+textures/default_filters/anisotropic_filtering_level=2
+
+[physics]
+common/physics_ticks_per_second=60

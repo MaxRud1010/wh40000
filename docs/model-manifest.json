@@ -1,0 +1,28 @@
+{
+  "source_name": "model-ot-27-10-compressed.glb",
+  "source_sha256": "cab1cc8fdecaa9addb0b4968c3f4990f1a44f2a25d524f6370636d061bb7f498",
+  "prepared_sha256": "cf4214cd13fa91a86eaca69306e71c50230079c0233d098845c141929c594b7e",
+  "original_untouched": true,
+  "bones": 16,
+  "clips": [
+    "aim_bolter",
+    "draw_bolter",
+    "draw_sword",
+    "fire_bolter",
+    "idle_bolter",
+    "idle_sword",
+    "reload_bolter",
+    "run_bolter",
+    "run_sword",
+    "sword_overhead",
+    "sword_slash_left",
+    "sword_slash_right",
+    "walk_bolter",
+    "walk_sword"
+  ],
+  "parts": {
+    "Chainsword": 7000,
+    "Bolter": 6000,
+    "TitusArmor": 65000
+  }
+}
